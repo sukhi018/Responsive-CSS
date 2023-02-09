@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+		<title>Assesment</title>
+		<style>
+			body
+			{
+				margin:0px;
+				padding: 0px;
+			}
+			#div1
+			{
+				flex-grow: 6;
+			}
+			#divi
+			{
+				flex-grow: 2;
+			}
+			.card
+			{
+				height: 250px;
+				width: 80%;
+				background-color: white;
+				border-radius: 2rem;
+				padding: 0.5rem;
+				margin-left: 1rem;
+			}
+			.row
+			{
+				display:flex;
+				justify-content: space-around;
+				margin-bottom: 1rem;
+			}
+			.row>div:hover
+			{
+				margin-top: -0.7rem;
+			}
+
+			#el1
+			{
+				box-sizing: border-box;
+			}
+		@media screen and (max-width: 900px)
+		{
+			#f1,.row
+			{
+				display: block  !important;
+			}
+
+			#el1
+			{
+				margin-left: auto !important;
+				margin-right: auto !important;
+				width: 80% !important;
+			}
+			#el2,#el3
+			{
+				margin-left: auto !important;
+				margin-right: auto !important;
+				width: 80%!important;
+			}
+			#f2
+			{
+				width: 100% !important;
+			}
+
+			.card
+			{
+				margin-bottom: 1rem !important;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#icon
+			{
+				margin-left: 0.1rem !important;
+			}
+			#img
+			{
+				height: 3rem !important;
+			}
+
+			#divi > div
+			{
+				margin-right: 1rem;
+			}
+
+
+		}
+		</style>
+	</head>
+	<body style='height: 100vh;
+		width: 100%;
+		background-image: url(./icon.jpg);
+		background-size: cover;'>
+		<div >
+			<div style='display: flex;color: white;    font-family: ui-serif;'>
+				<div id="div1">
+					<div id='icon'style='width: 10%;margin-left: 3rem;padding: 1rem;'>
+						<img id=img src=./origami.png style='height: 5rem;'alt="">
+					</div>
+					
+				</div>
+				<div id=divi style='    display: flex;justify-content: space-between;padding: 2rem;'>
+					<div id="div2">HOME</div>
+					<div id="div3">REGION</div>
+					<div id="div4">ABOUT</div>
+					<div id="div5"><span class="material-symbols-outlined">
+						menu
+					</span>
+				</div>
+			</div>
+		</div>
+
+
+		<div id='f1' style="display:flex;color: white;">
+			<div id='el1'style='width: 50%;
+				padding: 2rem;
+				font-size: 1.15rem;
+				margin-left: 2rem;'>
+				<h1>SAHARA</h1>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam ipsum iusto sequi id incidunt in nobis reiciendis dolor. Adipisci cum veniam repellendus dolorum tempora iusto voluptas sunt rem corrupti, reprehenderit possimus eveniet dolores? Qui iure aut repudiandae voluptatem cum reiciendis, obcaecati ipsa nesciunt veritatis sed cupiditate omnis quo repellat doloremque officiis quod ad repellendus laboriosam sequi placeat pariatur, voluptate, aliquam architecto nisi? Ea assumenda ut nulla tempora reprehenderit temporibus nesciunt! Modi nostrum laboriosam molestias perferendis tempore rerum iure dolore voluptatum illum, culpa ab consectetur ducimus commodi nesciunt magni impedit nemo vitae quibusdam labore deserunt blanditiis accusamus laudantium nulla explicabo! In.</div>
+				<div>
+					<div style='    background-color: white;
+						border-radius: 3rem;
+						color: black;
+						width: 7rem;
+						text-align: center;
+						font-size: 1.5rem;
+						margin-left: auto;
+						margin-right: auto;
+						padding: 0.5rem;
+						margin-top: 1rem;'>
+						Explore
+					</div>
+				</div>
+				
+			</div>
+			<div style='width:50%' id='f2'>
+				<div class='row' id='el2'>
+					<div class="card" style='background-image:url(./bg2.jpg);background-size:cover'>
+						<div style='padding:1rem'>
+							<h4>Lorem, ipsum.</h4>
+							<div>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, quas? <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, sunt.</div>
+						</div>
+						
+					</div>					<div class="card" style='background-image:url(./bg2.jpg);background-size:cover'>
+					<div style='padding:1rem'>
+						<h4>Lorem, ipsum.</h4>
+						<div>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, quas? <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolorem?</div>
+					</div>
+					
+				</div>
+			</div>
+				<div class='row' id='el2'>
+					<div class="card" style='background-image:url(./bg2.jpg);background-size:cover'>
+						<div style='padding:1rem'>
+							<h4>Lorem, ipsum.</h4>
+							<div>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, quas? <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, sunt.</div>
+						</div>
+						
+					</div>					<div class="card" style='background-image:url(./bg2.jpg);background-size:cover'>
+					<div style='padding:1rem'>
+						<h4>Lorem, ipsum.</h4>
+						<div>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, quas? <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolorem?</div>
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
